@@ -1,13 +1,14 @@
-import "./App.css";
+import type React from "react";
 
-function App() {
+import { Box } from "@mui/material";
+import { ThemeProvider } from "./context/ThemeContext";
+
+const App: React.FC = () => {
   return (
-    <>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <ThemeProvider>
+      <Box>Theme Provider</Box>
+    </ThemeProvider>
   );
-}
+};
 
 export default App;

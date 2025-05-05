@@ -1,7 +1,12 @@
 import React from "react";
+import LoanCalculator from "../components/LoanCalculator";
 
 const Home = () => {
-  return <>Home</>;
+  return (
+    <>
+      <LoanCalculator />
+    </>
+  );
 };
 
 export default Home;

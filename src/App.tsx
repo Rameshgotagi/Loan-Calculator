@@ -9,6 +9,7 @@ import ExchangeRate from "./pages/ExchangeRate";
 import About from "./pages/About";
 import ErrorPage from "./error_pages/ErrorPage";
 import { CurrencyProvider } from "./context/CurrencyContext";
+import PageNotFound from "./error_pages/PageNotFound";
 
 const App: React.FC = () => {
   return (
@@ -30,7 +31,7 @@ const App: React.FC = () => {
                 <Route path="/exchange-rates" element={<ExchangeRate />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/error" element={<ErrorPage />} />
-                <Route path="*" element={<ErrorPage />} />
+                <Route path="*" element={<PageNotFound />} />
               </Routes>
             </Box>
           </Box>

@@ -31,7 +31,7 @@ const ExchangeRate: React.FC = () => {
     }
   }, [exchangeRates]);
 
-  const handleChangePage = (event: unknown, newPage: number) => {
+  const handleChangePage = (_: unknown, newPage: number) => {
     setPage(newPage);
   };
 

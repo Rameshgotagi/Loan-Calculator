@@ -20,7 +20,7 @@ import {
   useTheme as useMuiTheme,
   Grid,
 } from "@mui/material";
-import { useEmiCalculator } from "../hooks/useEMICalculator";
+import { useEmiCalculator } from "../hooks/useEmiCalculator";
 import { useCurrency } from "../context/CurrencyContext";
 
 /**

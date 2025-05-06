@@ -20,9 +20,9 @@ import {
   useTheme as useMuiTheme,
   Grid,
 } from "@mui/material";
-
 import { useEmiCalculator } from "../hooks/useEMICalculator";
 import { useCurrency } from "../context/CurrencyContext";
+
 /**
  * LoanCalculator Component
  *
